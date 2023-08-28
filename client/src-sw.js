@@ -30,7 +30,7 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 registerRoute(
   // here we take in a single request and check if the request.destination matches any of the values in our array
   ({ request }) => ["style", "script", "worker"].includes(request.destination),
-  new StaleWhileRevalidate({
+  new revalidateCache({
     // gives the name of the cache
     cacheName: "asset-cache",
     plugins: [
