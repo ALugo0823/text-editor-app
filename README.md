@@ -19,7 +19,7 @@ To install, please follow the steps listed:
     2. After installation, in the integrated terminal on vs code, enter 'npm i' to install all of the dependencies we will need
     3. After all packages are installed, in the terminal, enter 'npm start' to initialize the server
      
-    Deployed Heroku URL: 
+    Deployed Heroku URL: https://text-editor-jate-app-1ccddd765a73.herokuapp.com/
 
 ## Usage
 
